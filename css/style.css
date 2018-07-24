@@ -1,0 +1,54 @@
+/*style of body*/
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    background-color: #FAFAF9;
+}
+
+/*style of .game-data*/
+.game-data{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+/*style of .cardsBox (main box)*/
+.cardsBox{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 30px;
+}
+
+/*style of .flip*/
+.flip{
+    
+    width: 21%;
+    height: 21%;
+    color: #2d3c49;
+}
+
+/*style of .back and .front*/
+.back,
+.front{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    background-color: #02b3e4;
+    box-shadow: 5px 5px 10px;
+}
+
